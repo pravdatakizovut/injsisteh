@@ -1,0 +1,23 @@
+.montaj__trub__title {
+      margin-top: 50px;
+      font-size: 48px;
+      font-weight: 800;
+      padding-right: 100px;
+}
+.page__portfolio {
+      color:#000 !important;
+      font-weight: 700 !important;
+      &:hover {
+         color:#fff !important; 
+      }
+}
+.montaj__trub__index .container {
+      padding: 0;
+      padding-bottom: 25px;
+      border-bottom: 1px solid rgb(52, 52, 52);
+}
+.montaj__trub__index__button {
+      display: flex;
+      justify-content: flex-end;
+      align-items:center;
+}

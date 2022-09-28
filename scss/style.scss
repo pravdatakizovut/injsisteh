@@ -1,0 +1,44 @@
+@import "adaptive";
+
+@import "header";
+@import 'index';
+@import "achiments";
+@import "company";
+@import "portfolio";
+@import "achiments2";
+@import "contacts";
+@import "footer";
+
+//?HTML
+@import "portfolio__html";
+@import "about__company__html";
+@import "page__montaj__truboprovodov__html";
+
+
+
+// Всем картинка указать 'max-width:100%'
+img {
+    max-width:100%;
+}
+body {
+    background-color: #FFF;
+    font-family: Montserrat;
+    letter-spacing: 1.5%;
+    // overflow: hidden !important;
+}
+section {
+    padding: 100px 0;
+}
+.title {
+    padding-left: 215px;
+    margin-bottom: 100px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 1.5%;
+    &::before {
+    content:"|"
+
+    }
+}
+

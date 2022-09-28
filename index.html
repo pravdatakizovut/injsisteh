@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <!-- <header id="header">
+        <div class="container">
+            <a href="" class="logo">
+                <img class="logo__img" src="/img/logo.png" alt="">
+            </a>
+            <div class="right__header">
+
+                <ul class="menu__top">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="html/about__company.html">Компания</a></li>
+                    <li><a href="html/portfolio.html">Виды работ</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="btns__header">
+                <a href="#" class="btn__light">8 800 222-88-46</a>
+            </div>
+
+        </div>
+    </header> -->
+
+    <header id="header">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container">
+                  <a class="navbar-brand logo" href="#">
+                    <img class="logo__img" src="/img/logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon">
+                        <img src="img/icon/menu.png" alt="">
+                    </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="html/about__company.html">Компания</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="html/portfolio.html">Виды работ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Контакты</a>
+                      </li>
+                      <li class="nav-item nav__item__callbutton">
+                        <button type="submit"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary btn__call">Заказать звонок</button>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        
+    </header>
+    <!-- INDEX  -->
+    <section class="index">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xs-12 col-lg-12 col-md-12 col-sm-12 col-xxl-9 p-0 animate__animated animate__backInLeft">
+                    <h1 class="index__title">Инженерные <span class="text__white">системы</span> и <span
+                            class="text__white">технологии</span></h1>
+                    <p class="index__subtitle">Cтроим <span class="text__white">будущее</span> сегодня</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-xs-12 col-md-7 justify-content-center d-flex ">
+                    <div class="item__video animate__animated animate__backInLeft">
+                        <video class="video" controls muted loop autoplay preload="metadata">
+                            <source type="video/webm" src="video/Видео СМУ_1.mp4">
+                            <source type="video/mp4" src="video/Видео СМУ_1.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="index__bottom__block col-xs-12 col-md-4  animate__animated animate__backInRight">
+                    <p class="index__text">Компания обладает производственно-техническим потенциалом, позволяющим
+                        ритмично, с высоким качеством выполнять объёмы в промышленном и гражданском строительстве</p>
+                    <div class="btn__prvd mb-5">
+                        <a href="#"><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark  index__btn">Бесплатная консультация</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Оставить заявку</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <form  action="#" id="form" class="form__body" class="row g-3 needs-validation" novalidate>
+                <div class="col-md-12">
+                  <label for="validationCustom01" class="form-label"> </label>
+                  <input type="text" class="form-control _req" id="validationCustom01" placeholder="Имя" name="user__name" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <label for="validationCustom02" class="form-label"></label>
+                  <input type="text" class="form-control _req" id="validationCustom02" placeholder="Телефон" name="user__phone" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <label for="validationCustom03" class="form-label"> </label>
+                  <input type="text" class="form-control _req" id="validationCustom03" placeholder="Ваши пожелания" name="user__comment" required>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Отправить</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- ACHIMENTS  -->
+    <div class="achiments">
+        <div class="row achiments__items">
+            <div class="col-xs-12 col-md-4 achiments__item">
+                <div class="achiments__name">17</div>
+                <div class="achiments__text">Лет на рынке</div>
+            </div>
+            <div class="col-xs-12 col-md-4 achiments__item achiments__item__2">
+                <div class="achiments__name">700+</div>
+                <div class="achiments__text">довольных клиентов</div>
+            </div>
+            <div class="col-xs-12 col-md-4 achiments__item">
+                <div class="achiments__name">115</div>
+                <div class="achiments__text">специалистов</div>
+            </div>
+        </div>
+    </div>
+    <!-- COMPANY  -->
+    <div id="company" class="company">
+        <div class="container-fluid ">
+            <div class="row mb-5">
+                <div class="col-xs-12 col-md-7 company__left">
+                    <div class="company__left__items">
+                        <div class="company__left__items__title">О компании</div>
+                        <div class="company__left__items__subtitle">Для тех кто ищет надежную строительную компанию
+                        </div>
+                        <div class="company__left__items__text ">Большой опыт позволяет нам работать во всех
+                            существующих стилях, создавать что-то по-настоящему новое и нетривиальное.<br></div>
+                        <div class="company__left__items__text">
+                            Мы с удовольствием «работаем» с любыми строительными материалами и помогаем каждому клиенту
+                            найти золотую середину между тем, о чем мечтается, и что реально можно осуществить.</div>
+                        <div class="company__left__items__btn">
+                            <a href="html/about__company.html"><button type="button"
+                                    class="btn btn-outline-dark btn-lg company__btn">Подробнее</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 company__right">
+                    <div class="company__img">
+                        <img src="img/company/compant__img.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFOLIO  -->
+    <section class="portfolio" id="portfolio">
+        <div class="container-fluid">
+            <div class="row portfolio__top">
+                <div class="col-xs-12 col-md-7">
+                    <div class="portfolio__left">
+                        <div class="portfolio__title">Виды работ</div>
+                        <div class="portfolio__subtitle">Наши проекты</div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3 ">
+                    <div class="portfolio__right">
+                        <a href="html/portfolio.html"><button type="button" class="btn btn-outline-dark  portfolio__btn">Показать
+                                все работы</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="html/page__montaj__truboprovodov.html">
+                        <img class="portfolio__img" src="/img/index__portfolio/1.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Монтаж трубопроводов в том числе газопроводов высокого давления</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/index__portfolio/2.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Строительство плоскостных сооружений - аэродромы и автодороги</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/index__portfolio/3.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Глубоководные работы в том числе с применением жестких водолазных скафандров</h5>
+                    </a>
+                   
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/1.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Монтаж промышленных котельных и силовых трансформаторов</h5>
+                    </a>
+                    
+                </div>
+
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Промышленный альпенизм/4.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Промышленный альпинизм</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/index__portfolio/6.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/index__portfolio/7.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Производство буровых работ и забивка свай</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/7.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Сооружение ангаров и монтаж металлоконструкций</h5>
+                    </a>
+                    
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/4.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/index__portfolio/10.jpeg" alt="">
+                        <h5 class="portfolio__img__name text-center">Работы по благоустройству территории</h5>
+                    </a>
+                    
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/10.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Строительство спортивных площадок, сооружений и объектов</h5>
+                    </a>
+                   
+                </div>
+                <div class="col-2 portfolio__item">
+                    <a class="portfolio__link" href="">
+                        <img src="/img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/6.jpg" alt="">
+                        <h5 class="portfolio__img__name text-center">Строительство насосных станций, бассейнов и прочих гидротехнических сооружений</h5>
+                    </a>
+                    
+                </div>
+
+            </div>
+           
+        </div>
+    </section>
+    <!-- COMPANY  -->
+    <div id="achiments2" class="achiments2">
+        <div class="container-fluid p-0">
+            <div class="row mb-5">
+                <div class="col-xs-12 col-md-7 achiments2__left">
+                    <div class="achiments2__left__items">
+                        <div class="achiments2__left__item1">
+                            <div class="achiments2__title">Скорость</div>
+                            <div class="achiments2__subtitle">Мы гарантируем быстрое и качественное обслуживание<br> время - самый ценный невосполнимый ресурс</div>
+                        </div>
+                        <div class="achiments2__left__item2">
+                            <div class="achiments2__title">Качество</div>
+                            <div class="achiments2__subtitle">За качествоим наших услуг стоит многолетний опыт<br> мы - специалисты высокого уровня</div>
+                        </div>
+                        <div class="achiments2__left__item3">
+                            <div class="achiments2__title">Цены</div>
+                            <div class="achiments2__subtitle">Гибкие цены устроят каждого покупателя мы гарантируем <br>честное ценообразование и фиксированную стоимость</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 company__right">
+                    <div class="achiments2__img">
+                        <img src="img/achiments2/1.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- CONTACTS  -->
+    <div class="contacts" id="contacts">
+        <div class="container-fluid">
+            <div class="row contacts__1row">
+                <div class=" col-xs-6 col-md-10">
+                    <div class="contacts__title">Контакты</div>
+                    <div class="contacts__subtitle">Мы работаем в режиме 24/7, звоните или пишите нам на почту.</div>
+                </div>
+                <div class="back__btn col-xs-2 col-md-2">
+                    <a href="#header">
+                    <div class="contacts__icon">
+                            <img src="/img/icon/arrow-top.svg" alt="">
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="row contacts__2row">
+                <div class="contacts__phone__items col-xs-12 col-md-5">
+                    <a class="contacts__link" href="">
+                        <div class="contacts__phone1">+7 (988) 949-00-00</div>
+                    </a>
+                    <a class="contacts__link" href="https://wa.me/79889490000">
+                        <div class="contacts__phone2">+7 (988) 949-00-00</div>
+                    </a>
+                    <a class="contacts__link" href="">
+                        <div class="contacts__phone3">+7 (988) 949-00-00</div>
+                    </a>
+                </div>
+                <div class="col-2"></div>
+                <div class="contacts__rejimraboti__items col-xs-12 col-md-5">
+                    <div class="contacts__col2__item">
+                        <div class="contacts__time1">Режим работы</div>
+                        <div class="contacts__city">Пн-Пт: с 09:00 до 17:00<br>
+                            Суббота: с 11:00 до 15:00</div>
+                    </div> 
+                    <div class="contacts__col2__item">
+                        <div class="contacts__time2">г. Москва</div>
+                        <div class="contacts__city">Ленинский проспект, дом,<br>
+                            строение, номер кабинета</div>
+                    </div>  
+                    <div class="contacts__col2__item">
+                        <a class="text-decoration-none" href=""><div class="contacts__time3">test@example.com</div></a>
+                        
+                    </div>
+                </div>
+                <div class="contacts__footer__nav col-12 d-flex justify-content-center">
+                    <a class="contacts__nav__link" href="#">Главная</a>
+                    <a class="contacts__nav__link" href="html/about__company.html">Компания</a>
+                    <a class="contacts__nav__link" href="html/portfolio.html">Виды работ</a>
+                    <a class="contacts__nav__link" href="#contacts">Контакты</a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+.contacts {
+    background-color:#1B1E1F;
+    padding: 50px;
+}
+.contacts__1row {
+    padding-bottom: 50px;
+    border-bottom:1px solid rgb(52, 52, 52);
+}
+.contacts__2row {
+    padding-bottom: 0px;
+    border-bottom:1px solid rgb(52, 52, 52); 
+}
+.contacts__title {
+    font-size: 69px;
+    color:#FFFFFC;
+    font-weight: 800;
+}
+.contacts__subtitle {
+    font-size: 22px;
+    color:#FFFFFC;
+
+}
+.contacts__icon {
+    content:'';
+    background-color:#FF8900;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    &:hover {
+        background-color:#d37100;
+    }
+    &::before {
+        content:'Наверх';
+        position: absolute;
+        left:-80px;
+        font-size: 17px;
+        color:#FFFFFC;
+    }
+}
+.contacts__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contacts__icon img{
+  &:hover {
+    fill:#1B1E1F;
+  }
+   
+}
+
+.contacts__2row {
+padding-top: 50px;
+}
+.contacts__link {
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.contacts__col2__item{
+    color:#FFFFFC;
+    margin-bottom: 30px;
+   text-align: start !important;
+
+
+}
+.contacts__phone1 {
+    font-size: 22px;
+    font-weight: 700;
+    color:#FFFFFC;
+    margin-bottom: 20px;
+    position: relative;
+    &::after {
+        content:url('../img/icon/telegram.png');
+        position: absolute;
+        top: -8px;
+        right: -70px;
+    }
+}
+.contacts__phone2 {
+    font-size: 22px;
+    font-weight: 700;
+    color:#FFFFFC;
+    margin-bottom: 20px;
+    position: relative;
+    &::after {
+        content:url('../img/icon/whatsapp.png');
+        position: absolute;
+        top: -8px;
+        right: -70px;
+    }
+}
+.contacts__phone3 {
+    font-size: 22px;
+    font-weight: 700;
+    color:#FFFFFC;
+    margin-bottom: 20px;
+    position: relative;
+    &::after {
+        content:url('../img/icon/viber.png');
+        position: absolute;
+        top: -8px;
+        right: -70px;
+    }
+}
+.contacts__time1 {
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+  &::before {
+    content:url('../img/icon/time.png');
+    position: absolute;
+    left: -30px;
+    top: 2px;
+  }
+}
+.contacts__time2 {
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+  &::before {
+    content:url('../img/icon/location.png');
+    position: absolute;
+    left: -30px;
+    top: 2px;
+  }
+}
+.contacts__time3 {
+    font-size: 17px;
+    font-weight: 600;
+    color:#FF8900;
+    position: relative;
+    margin-left: 0px;
+  &::before {
+    content:url('../img/icon/mail.png');
+    position: absolute;
+    left: -30px;
+    top: 2px;
+  }
+}
+.contacts__city {
+    font-size: 17px;
+    font-weight: 400;
+}
+.contacts__nav__link {
+    text-decoration: none !important;
+    color:#FFFFFC;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 50px 0;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color:#FF8900;
+    }
+}
+.contacts__phone__items {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.contacts__rejimraboti__items {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.back__btn {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

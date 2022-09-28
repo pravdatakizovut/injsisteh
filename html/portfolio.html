@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+              <a class="navbar-brand logo" href="../index.html">
+                <img class="logo__img" src="../img/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon">
+                    <img src="../img/icon/menu.png" alt="">
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about__company.html">Компания</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Виды работ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+</header>
+   <section class="portfolio__index">
+    <div class="container-fluid">
+        <div class="row portfolio__top">
+            <div class="col-xs-12 col-md-7">
+                <div class="portfolio__left">
+                    <div class="portfolio__title">Виды работ</div>
+                    <div class="portfolio__subtitle">Наши проекты</div>
+                </div>
+            </div>
+
+            <!-- <div class="col-xs-12 col-md-3">
+                <div class="portfolio__right">
+                    <a href="html/portfolio.html"><button type="button" class="btn btn-outline-dark btn-lg portfolio__btn">Показать
+                            все работы</button></a>
+                </div>
+            </div> -->
+        </div>
+        <div class="row justify-content-center">
+            <!-- SLIDER 1  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators1" class="carousel slide1" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                     
+
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img class="slider__img" src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Монтаж трубопроводов в том числе газопроводов высокого давления/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Монтаж трубопроводов в том числе газопроводов высокого давления</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 2  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators2" class="carousel slide1" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство плоскостных сооружений - аэродромы и автодороги/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                         </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Строительство плоскостных сооружений - аэродромы и автодороги</div>
+                    
+                </a>    
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 3  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators3" class="carousel slide3" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/7.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/1.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/8.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/6.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Глубоководные работы в том числе с применением жестких водолазных скафандров — копия — копия/5.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Глубоководные работы в том числе с применением жестких водолазных скафандров</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 4  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators4" class="carousel slide4" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                    <a class="portfolio__item_link" href="#">
+                        <div class="carousel-item carousel-item-service active">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/ВИДЫ РАБОТ/Монтаж промышленных котельных и силовых трансформаторов/7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Монтаж промышленных котельных и силовых трансформаторов</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 5  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators5" class="carousel slide5" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                     
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Промышленный альпенизм/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Промышленный альпенизм/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Промышленный альпенизм/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Промышленный альпенизм/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Промышленный альпенизм/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Промышленный альпинизм</div>
+                    
+                </a>       
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 6  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators6" class="carousel slide6" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций/7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                    </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Строительство железнодорожных путей в том числе контактной сети и инженерных коммуникаций</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 7  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators7" class="carousel slide7" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Производство буровых работ и забивка свай/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Производство буровых работ и забивка свай/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Производство буровых работ и забивка свай/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Производство буровых работ и забивка свай/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Производство буровых работ и забивка свай</div>
+                    
+                </a>       
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 8  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators8" class="carousel slide8" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="5"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="6"
+                            aria-label="Slide 5"></button>
+                      
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Сооружение ангаров и монтаж металлоконструкций/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                       
+                        </a>    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators8"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators8"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Сооружение ангаров и монтаж металлоконструкций</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+             <!-- SLIDER 9  -->
+             <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators9" class="carousel slide9" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                       
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                                <div class="carousel-item carousel-item-service active">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/6.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/ВИДЫ РАБОТ/Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов/7.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators9"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link"  href="#">
+                    <div class="portfolio__name">Бетонные и общестроительные работы при строительстве крупных промышленных и инфраструктурных объектов</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 10  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators10" class="carousel slide10" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Работы по благоустройству территории/" class="d-block w-100" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Работы по благоустройству территории</div>
+                    
+                </a>       
+                <div class="btn__prvd">
+                    <a class="portfolio__item_link" href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 11  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators11" class="carousel slide11" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicator11" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="6"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                    <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/10.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство спортивных площадок, сооружений и объектов/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                    </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Строительство спортивных площадок, сооружений и объектов</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a  href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+            <!-- SLIDER 12  -->
+            <div class="col-md-6 col-lg-4 p-3">
+                <div id="carouselExampleIndicators12" class="carousel slide12" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicator12" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="5"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="6"
+                            aria-label="Slide 5"></button>
+                            
+                      
+                      
+                    </div>
+                    <div class="carousel-inner carousel-inner-service">
+                        <a class="portfolio__item_link" href="#">
+                            <div class="carousel-item carousel-item-service active">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/ВИДЫ РАБОТ/Строительство насосных станций, бассейнов и прочих гидротехнических сооружений/7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </a>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+                <a class="portfolio__item_link" href="#">
+                    <div class="portfolio__name">Строительство насосных станций, бассейнов и прочих гидротехнических сооружений</div>
+                    
+                </a>
+                <div class="btn__prvd">
+                    <a href="#"><button type="button"
+                            class="btn btn-outline-dark btn-lg portfolio__btn">Подробнее</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <div class="contacts" id="contacts">
+    <div class="container-fluid">
+        <div class="row contacts__1row">
+            <div class=" col-xs-6 col-md-10">
+                <div class="contacts__title">Контакты</div>
+                <div class="contacts__subtitle">Мы работаем в режиме 24/7, звоните или пишите нам на почту.</div>
+            </div>
+            <div class="col-xs-2 col-md-2 d-flex justify-content-center align-items-center">
+                <a href="#header">
+                <div class="contacts__icon">
+                        <img src="/img/icon/arrow-top.svg" alt="">
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="row contacts__2row">
+            <div class="col-xs-12 col-md-5 d-flex flex-column align-items-end">
+                <a class="contacts__link" href="">
+                    <div class="contacts__phone1">+7 (000) 000-00-00</div>
+                </a>
+                <a class="contacts__link" href="https://wa.me/79889490000">
+                    <div class="contacts__phone2">+7 (988) 949-00-00</div>
+                </a>
+                <a class="contacts__link" href="">
+                    <div class="contacts__phone3">+7 (000) 000-00-00</div>
+                </a>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-5 d-flex flex-column align-items-start ">
+                <div class="contacts__col2__item">
+                    <div class="contacts__time1">Режим работы</div>
+                    <div class="contacts__city">Пн-Пт: с 09:00 до 17:00<br>
+                        Суббота: с 11:00 до 15:00</div>
+                </div> 
+                <div class="contacts__col2__item">
+                    <div class="contacts__time2">г. Москва</div>
+                    <div class="contacts__city">Ленинский проспект, дом,<br>
+                        строение, номер кабинета</div>
+                </div>  
+                <div class="contacts__col2__item">
+                    <a class="text-decoration-none" href=""><div class="contacts__time3">test@example.com</div></a>
+                    
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <a class="contacts__nav__link" href="../index.html">Главная</a>
+                <a class="contacts__nav__link" href="about__company.html">Компания</a>
+                <a class="contacts__nav__link" href="#">Виды работ</a>
+                <a class="contacts__nav__link" href="#contacts">Контакты</a>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

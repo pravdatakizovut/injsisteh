@@ -1,0 +1,29 @@
+.achiments {
+    
+}
+.achiments__item {
+    height: 476px;
+    
+    background-color:#1B1E1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1px !important;
+    
+    
+}
+.achiments__name {
+    font-size: 76px;
+    font-weight: 700;
+    color:#FF8900; 
+}
+.achiments__text {
+    font-size: 20px;
+    font-weight: 400;
+    color:#FFFFFC;
+    text-transform: uppercase;
+}
+.achiments__item__2 {
+    background-color:#27292A;
+}

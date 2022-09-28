@@ -1,0 +1,199 @@
+// //!Header
+// header {
+// //?Отступы
+//     margin: 40px auto;
+//     // Ширина контейнера * 100 / Ширина
+//     max-width: 85%; // 15% - отступы по бокам
+//     padding-bottom: 20px;
+// //?Дисплей
+//     display:flex;
+//     align-items: center;
+// //?Рамки
+//     border-bottom: 1px solid rgb(86, 86, 86,0.5);
+// //?Разделение блоков
+// justify-content: space-between;
+// }
+// //!Header right__header 
+// header .right__header {
+// //?Дисплей
+//     display: flex;
+//     align-items:center
+// }
+
+
+// //!Header logo 
+// header .logo {
+//     max-width: 100px;
+// }
+
+// //!Header menu__top
+// header .menu__top {
+    
+//     list-style-type: none;
+//     // Убираем отступ bootstrap'a
+//     margin: 0;
+//     padding: 0;
+// } 
+
+// //!Header menu__top li
+// header .menu__top li {
+// //?Дисплей
+//     // У li'шек сделать display:inline-block,чтобы они были строчно-блочными
+//     display:inline-block;
+// //?Отступы
+//     margin-right: 75px;
+// }
+
+// //!Header menu__top li a 
+// header .menu__top li a {
+// //?Дисплей
+//     // Ссылки делаем блочными,чтобы они растягивались по ширине и высоте,чтобы когда клиент наводил на ссылку она реагировала по площади
+//     display:inline-block;
+//     // 
+// //?Appearance  
+//     text-decoration: none;
+//     color:#4f4c67;
+//     font-weight: 700;
+//     // font-size: 18px;
+//     transition: color .2s ease;
+// //?Наведение на ссылку
+//     &:hover {
+//         color:#0758B1;
+//     }
+// }
+// //!Header .btns__header
+// header .btns__header {
+// //?Дисплей
+//     display:flex;
+//     align-items:center
+// }
+// //?
+// //!Header .btns__header >a Обращаемся к каждому a внутри
+// header .btns__header>a {
+// //?Дисплей
+//     display:flex;
+//     align-items:center;
+// //?Appearance
+//     border-radius: 10px;
+//     text-decoration: none;
+//     transition: all 0.3s ease;
+//     // font-size: 20px;
+//     }
+
+//     header .btn__light {
+// //?Отступы
+//     margin-right: 30px;    
+//     padding: 5px 50px;
+// //?Appearance
+//     color:#4f4c67;
+//     font-size: 18px;
+//     font-weight: 700;
+//     border: 1px solid #343244;
+//         &:hover {
+//             background-color: #343244;
+//             color:aliceblue
+//         }
+//     }
+   
+
+//     header .btn__grey {
+//         //?Отступы
+//             margin-right: 30px;    
+//             padding: 5px 50px;
+//         //?Appearance
+//             color:aliceblue;
+//             font-size: 18px;
+//             font-weight: 700;
+//             border: 1px solid #0758B1;
+//             background-color:#0758B1;
+//                 &:hover {
+//                     background-color: #fff;
+//                     color:#343244
+//                 }
+//             }
+
+// //!Адаптив
+// @media (max-width:1540px) {
+// a.btn__light   {
+//     font-size: 10px;
+//     padding: 5px 20px;
+//     margin-right: 10px;
+//    }
+// a.btn__grey   {
+//     font-size: 10px;
+//     padding: 5px 20px;
+        
+//    }
+// }
+// @media (max-width:1200px) {
+// .btns__header{
+//     flex-wrap: wrap;
+// }
+// a.btn__light   {
+//     font-size: 10px;
+//     padding: 5px 20px;
+    
+
+//     }
+// a.btn__grey   {
+//     font-size: 10px;
+//     padding: 5px 23px;
+        
+//     }
+//     header .menu__top li {
+//         margin-right: 30px;
+//      }
+     
+//     }
+//     @media (max-width:1000px) {
+      
+//         header .menu__top li {
+//                 margin-right: 20px;
+//                 font-size: 12px;
+//         }
+             
+//     }
+//     @media (max-width:799px) {
+//         header .menu__top li {
+//             display: none;
+//     }     
+//     }  
+//     @media (max-width:579px) {
+//         header .logo {
+//             min-width: 100px;
+//             margin-right: 50px;
+//         }
+//         a.btn__light   {
+//             font-size: 8px;
+//             padding: 3px 13px;
+            
+        
+//             }
+//         a.btn__grey   {
+//             font-size: 8px;
+//             padding: 3px 15px;
+                
+//             }
+// }
+// @media (max-width:409px) {
+//     header .logo {
+//         min-width: 100px;
+//         margin-right: 50px;
+//     }
+//     a.btn__light   {
+//         font-size: 8px;
+//         padding: 3px 13px;
+//         margin-right: 0;
+        
+    
+//         }
+//     a.btn__grey   {
+//         font-size: 8px;
+//         padding: 3px 15px;
+//         margin-right: 0;
+            
+//         }
+//         .btns__header {
+//             justify-content: end;
+//         }
+// }

@@ -1,0 +1,32 @@
+footer {
+    background-color:#000;
+    // height: 300px;
+    padding: 50px;
+}
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    list-style-type: none;
+}
+.footer__link {
+    padding-right: 40px;
+    text-decoration: none;
+    color:#fff;
+    transition: all 0.2s ease;
+    &:hover {
+        color:white;
+        font-weight: 700;
+    }
+    
+}
+.footer__phone__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    transition: all 0.2s ease;
+    &:hover {
+        color:white;
+        font-weight: 700;
+    }
+}

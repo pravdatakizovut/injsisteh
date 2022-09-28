@@ -1,0 +1,80 @@
+
+.achiments2 {
+    // padding-top: 200px;
+    padding-bottom: 20px;
+    // padding: 0 !important;
+    // height: 100vh;
+    background-color:#1B1E1F;
+}
+.achiments2__left {
+    background-color:#fff;
+}
+.achiments2__img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.achiments2__left{
+padding-left: 50px ;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.company__left__items__text{
+    font-size: 24px;
+    font-weight: 400;
+    color:#1A1A1A; 
+    margin-bottom: 50px;
+}
+.company__btn {
+    padding: 1rem 5rem !important;
+}
+.achiments2__title {
+    font-size: 26px;
+    color:#1A1A1A;
+    font-weight: 700;
+}
+.achiments2__subtitle {
+    font-size: 20px;
+    color:#1A1A1A;
+}
+.achiments2__left__item1 {
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    &::before {
+        content:url('../img/icon/speed.png');
+        width: 100%;
+        height: 100%;
+      position: absolute;
+      left:-150px;
+      bottom:5px;
+    }
+}
+.achiments2__left__item2 {
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    &::before {
+        content:url('../img/icon/quality.png');
+        width: 100%;
+        height: 100%;
+      position: absolute;
+      left:-150px;
+      bottom:5px;
+    }
+}
+.achiments2__left__item3 {
+    position: relative;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    &::before {
+        content:url('../img/icon/price.png');
+        width: 100%;
+        height: 100%;
+      position: absolute;
+      left:-150px;
+      bottom:5px;
+    }
+}
